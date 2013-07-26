@@ -19,7 +19,7 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        alert( 'start' );
+        alert( 'start in js/index.js line 22' );
         this.bindEvents();
     },
     // Bind Event Listeners
