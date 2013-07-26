@@ -19,7 +19,9 @@
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         id        = "io.cordova.helloCordova"
-        version   = "2.0.0">
+        version   = "2.0.0"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        >
     <name>Hello Cordova</name>
 
     <description>
@@ -44,6 +46,8 @@
       <preference name="disallowOverscroll" value="true" />
     -->
 
+    <gap:plugin name="com.phonegap.plugins.childbrowser" />
+    
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
@@ -105,5 +109,5 @@
     <!--<plugins>-->
     <!--    <gap:plugin name="com.adobe.plugins.childbrowser" />-->
     <!--</plugins>-->
-    <gap:plugin name="com.phonegap.plugins.childbrowser" />
+    
 </widget>
